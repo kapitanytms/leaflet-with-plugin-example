@@ -1,0 +1,22 @@
+{
+  "name": "leaflet-with-plugin-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapitanytms/leaflet-with-plugin-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kapitanytms/leaflet-with-plugin-example/issues"
+  },
+  "homepage": "https://github.com/kapitanytms/leaflet-with-plugin-example#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}

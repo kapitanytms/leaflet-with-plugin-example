@@ -1,0 +1,177 @@
+//FONTS
+@import url(assets/fonts/fonts.css);
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  //background-color: gray;
+  background: url("assets/dom.jpg") center center;
+}
+
+.title {
+  padding: 20px;
+  h3 {
+    text-transform: uppercase;
+    font-size: 60px;
+    span:first-of-type {
+      color: #dfdfdf;
+      font-family: Uni-Neue-Heavy;
+    }
+    span:last-of-type {
+      color: #f4e04d;
+      font-family: Uni-Neue-Regular;
+    }
+  }
+}
+.last-day {
+  margin: 20px 0 0;
+  border: 0;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  .last-day-wrapper {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    .active-customers, .opened-wallets {
+      box-sizing: border-box;
+      display: inline-block;
+      color: white;
+      padding: 10px;
+      .wrapper {
+        p:first-of-type {
+          font-size: 48px;
+          font-family: Uni-Neue-Book;
+          margin: 0;
+          line-height: 48px;
+        }
+        p:last-of-type {
+          font-size: 24px;
+          font-family: Uni-Neue-Bold;
+          margin: 0;
+          line-height: 24px;
+        }
+        span {
+          display: block;
+          font-family: Uni-Neue-Book;
+          font-size: 18px;
+          color: #6b6b6b;
+        }
+      }
+    }
+  }
+}
+.map {
+  padding: 0 26px;
+}
+
+hr {
+  border: 2px solid white;
+  width: 100%;
+  margin: 10px 40px 20px;
+}
+
+.customers-total {
+  margin: 20px;
+  background-color: #f4e04d;
+  text-transform: uppercase;
+  padding: 10px;
+  .wrapper {
+    p {
+      font-family: Uni-Neue-Book;
+      font-size: 60px;
+      margin: 0;
+      line-height: 60px;
+    }
+    span {
+      display: block;
+      font-size: 24px;
+    }
+  }
+}
+
+article.actions {
+  color: #fff;
+  border-left: 1px dotted white;
+  hr {
+    border: 1px solid #fff;
+    width: 80%;
+  }
+  h4 {
+    margin-left: 68px;
+    font-size: 24px;
+    font-family: Uni-Neue-Bold;
+    text-transform: uppercase;
+  }
+  section.recent-location {
+    .locations-wrapper {
+      padding: 0 40px;
+    }
+  }
+  section.total-actions {
+    p {
+      font-family: Uni-Neue-Book;
+      font-size: 48px;
+    }
+  }
+}
+
+article.piggy-bank {
+  padding-left: 40px;
+  .piggy-bank-wrapper {
+    h4.piggy-bank-title {
+      color: #fff;
+      font-family: Uni-Neue-Bold;
+      font-size: 24px;
+      text-transform: uppercase;
+      span {
+        color: #a7a7a7;
+        font-family: Uni-Neue-Book;
+      }
+    }
+    .chart {
+      background-color: #6f672d;
+      height: 80px;
+      width: 100%;
+    }
+  }
+}
+article.hot {
+  border: 0;
+  border-left: 1px dotted #fff;
+ .hot-wrapper {
+   h4.hot-title {
+     color: #fff;
+     font-family: Uni-Neue-Bold;
+     font-size: 24px;
+     text-transform: uppercase;
+   }
+   span {
+     color: #a7a7a7;
+     font-family: Uni-Neue-Book;
+   }
+   .wrapper {
+     h3 {
+       font-size: 48px;
+       color: #fff;
+       font-family: Uni-Neue-Regular;
+     }
+     hr {
+       width: 40px;
+       border: 3px solid #f4e04d;
+       margin: 10px auto;
+     }
+     p {
+       font-family: Uni-Neue-Bold;
+       font-size: 24px;
+       color: #fff;
+     }
+     .purchases {
+     }
+   }
+ }
+}
+
+
