@@ -8,7 +8,8 @@ html {
 body {
   margin: 0;
   //background-color: gray;
-  background: url("assets/dom.jpg") center center;
+  background: url("assets/dom.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -36,7 +37,7 @@ body {
     display: block;
     margin: 0 auto;
     .active-customers, .opened-wallets {
-      box-sizing: border-box;
+      text-align: center;
       display: inline-block;
       color: white;
       padding: 10px;
@@ -174,4 +175,41 @@ article.hot {
  }
 }
 
+.marker-green {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+//.marker-green-wrapper {
+//  border: 1px solid green;
+//  padding: 0px;
+//  border-radius: 50%;
+//  background-color: rgba(114,179,45, .5);
+//  transition: padding .2s;
+//  -webkit-transition: padding .2s; /* Safari 3.1 to 6.0 */
+//}
 
+//.marker-green-wrapper:hover {
+//  padding: 20px;
+//}
+
+.marker-yellow {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker-yellow-wrapper {
+  border: 1px solid yellow;
+  border-radius: 50%;
+  background-color: rgba(244,224,77, .5);
+}
+
+.marker-green-wrapper {
+  border: 1px solid green;
+  border-radius: 50%;
+  background-color: rgba(114,179,45, .5);
+}

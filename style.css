@@ -4,7 +4,8 @@ html {
 
 body {
   margin: 0;
-  background: url("assets/dom.jpg") center center; }
+  background: url("assets/dom.jpg") center center no-repeat;
+  background-size: cover; }
 
 .title {
   padding: 20px; }
@@ -28,7 +29,7 @@ body {
     display: block;
     margin: 0 auto; }
     .last-day .last-day-wrapper .active-customers, .last-day .last-day-wrapper .opened-wallets {
-      box-sizing: border-box;
+      text-align: center;
       display: inline-block;
       color: white;
       padding: 10px; }
@@ -125,5 +126,29 @@ article.hot {
     font-family: Uni-Neue-Bold;
     font-size: 24px;
     color: #fff; }
+
+.marker-green {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer; }
+
+.marker-yellow {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer; }
+
+.marker-yellow-wrapper {
+  border: 1px solid yellow;
+  border-radius: 50%;
+  background-color: rgba(244, 224, 77, 0.5); }
+
+.marker-green-wrapper {
+  border: 1px solid green;
+  border-radius: 50%;
+  background-color: rgba(114, 179, 45, 0.5); }
 
 /*# sourceMappingURL=style.css.map */
